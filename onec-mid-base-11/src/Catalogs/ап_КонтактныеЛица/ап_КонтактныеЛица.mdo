@@ -23,7 +23,7 @@
   <foldersOnTop>true</foldersOnTop>
   <owners>Catalog.Контрагенты</owners>
   <codeLength>9</codeLength>
-  <descriptionLength>24</descriptionLength>
+  <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -91,7 +91,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>150</length>
+        <length>140</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

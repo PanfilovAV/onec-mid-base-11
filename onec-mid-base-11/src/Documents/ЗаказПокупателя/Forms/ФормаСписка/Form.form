@@ -772,7 +772,8 @@
 		КОГДА НаличиеФайлов.ЕстьФайлы
 			ТОГДА 1
 		ИНАЧЕ 0
-	КОНЕЦ КАК ЕстьФайлы
+	КОНЕЦ КАК ЕстьФайлы,
+	ДокументЗаказПокупателя.ап_КонтактноеЛицо КАК ап_КонтактноеЛицо
 ИЗ
 	Документ.ЗаказПокупателя КАК ДокументЗаказПокупателя
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеФайлов
@@ -842,6 +843,14 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ЕстьФайлы</dataPath>
         <field>ЕстьФайлы</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ап_КонтактноеЛицо</dataPath>
+        <field>ап_КонтактноеЛицо</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ап_СогласованнаяСкидка</dataPath>
+        <field>ап_СогласованнаяСкидка</field>
       </fields>
     </extInfo>
   </attributes>
